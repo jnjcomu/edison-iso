@@ -1,18 +1,19 @@
 //
-//  ViewController.swift
+//  LoginViewController.swift
 //  edison
 //
-//  Created by W1m3R on 28/12/2017.
+//  Created by W1nn3R on 31/12/2017.
 //  Copyright © 2017 JNJ Communication. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,7 +24,4 @@ class ViewController: UIViewController {
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
     }
-
-
 }
-

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		348357B91FF8BA7A0047B5B5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348357B81FF8BA7A0047B5B5 /* LoginViewController.swift */; };
+		3EBF1A77CCB8F08A4D5B83C4 /* Pods_edisonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 541F0344D839A994FD1DFA2A /* Pods_edisonTests.framework */; };
+		4B90D1B84953C299E14334CB /* Pods_edisonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5477216029A88B05D1163E5D /* Pods_edisonUITests.framework */; };
+		D54CA4CFF14B603D09097880 /* Pods_edison.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BF5FA9FBCFED167E0FDCD84 /* Pods_edison.framework */; };
 		DA513E181FF4E77000B65F22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA513E171FF4E77000B65F22 /* AppDelegate.swift */; };
 		DA513E1A1FF4E77000B65F22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA513E191FF4E77000B65F22 /* ViewController.swift */; };
 		DA513E1D1FF4E77000B65F22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA513E1B1FF4E77000B65F22 /* Main.storyboard */; };
@@ -35,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09C6DEC109C3374EB98A6092 /* Pods-edison.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edison.release.xcconfig"; path = "Pods/Target Support Files/Pods-edison/Pods-edison.release.xcconfig"; sourceTree = "<group>"; };
+		1980C4C8A8C4E6BCA54BD63C /* Pods-edisonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edisonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-edisonUITests/Pods-edisonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2F4804312B309933DD8D45EB /* Pods-edison.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edison.debug.xcconfig"; path = "Pods/Target Support Files/Pods-edison/Pods-edison.debug.xcconfig"; sourceTree = "<group>"; };
+		348357B81FF8BA7A0047B5B5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		41D2C0D441F5BFE46E7947AC /* Pods-edisonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edisonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-edisonUITests/Pods-edisonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BF5FA9FBCFED167E0FDCD84 /* Pods_edison.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_edison.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		541F0344D839A994FD1DFA2A /* Pods_edisonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_edisonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5477216029A88B05D1163E5D /* Pods_edisonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_edisonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C435C8CC35925602EED5BE19 /* Pods-edisonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edisonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-edisonTests/Pods-edisonTests.release.xcconfig"; sourceTree = "<group>"; };
 		DA513E141FF4E77000B65F22 /* edison.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = edison.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA513E171FF4E77000B65F22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA513E191FF4E77000B65F22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +62,7 @@
 		DA513E361FF4E77100B65F22 /* edisonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = edisonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA513E3A1FF4E77100B65F22 /* edisonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = edisonUITests.swift; sourceTree = "<group>"; };
 		DA513E3C1FF4E77100B65F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E36DAF972E11B98EAE03B07F /* Pods-edisonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edisonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-edisonTests/Pods-edisonTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D54CA4CFF14B603D09097880 /* Pods_edison.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EBF1A77CCB8F08A4D5B83C4 /* Pods_edisonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B90D1B84953C299E14334CB /* Pods_edisonUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52A1FB4BDD40022BCFE33873 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BF5FA9FBCFED167E0FDCD84 /* Pods_edison.framework */,
+				541F0344D839A994FD1DFA2A /* Pods_edisonTests.framework */,
+				5477216029A88B05D1163E5D /* Pods_edisonUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9364E7C0DB2C7C00D6DB7BDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F4804312B309933DD8D45EB /* Pods-edison.debug.xcconfig */,
+				09C6DEC109C3374EB98A6092 /* Pods-edison.release.xcconfig */,
+				E36DAF972E11B98EAE03B07F /* Pods-edisonTests.debug.xcconfig */,
+				C435C8CC35925602EED5BE19 /* Pods-edisonTests.release.xcconfig */,
+				41D2C0D441F5BFE46E7947AC /* Pods-edisonUITests.debug.xcconfig */,
+				1980C4C8A8C4E6BCA54BD63C /* Pods-edisonUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DA513E0B1FF4E77000B65F22 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				DA513E2E1FF4E77100B65F22 /* edisonTests */,
 				DA513E391FF4E77100B65F22 /* edisonUITests */,
 				DA513E151FF4E77000B65F22 /* Products */,
+				9364E7C0DB2C7C00D6DB7BDA /* Pods */,
+				52A1FB4BDD40022BCFE33873 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +143,7 @@
 			children = (
 				DA513E171FF4E77000B65F22 /* AppDelegate.swift */,
 				DA513E191FF4E77000B65F22 /* ViewController.swift */,
+				348357B81FF8BA7A0047B5B5 /* LoginViewController.swift */,
 				DA513E1B1FF4E77000B65F22 /* Main.storyboard */,
 				DA513E211FF4E77000B65F22 /* Assets.xcassets */,
 				DA513E231FF4E77000B65F22 /* LaunchScreen.storyboard */,
@@ -135,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA513E3F1FF4E77100B65F22 /* Build configuration list for PBXNativeTarget "edison" */;
 			buildPhases = (
+				D5A7ABC1FD47C402BEB554CA /* [CP] Check Pods Manifest.lock */,
 				DA513E101FF4E77000B65F22 /* Sources */,
 				DA513E111FF4E77000B65F22 /* Frameworks */,
 				DA513E121FF4E77000B65F22 /* Resources */,
+				6497E775AEBFC98BB1F4593E /* [CP] Embed Pods Frameworks */,
+				20A533BA942ECDC09B2B1171 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA513E421FF4E77100B65F22 /* Build configuration list for PBXNativeTarget "edisonTests" */;
 			buildPhases = (
+				C2C5ADE2446C73448E1A4ACF /* [CP] Check Pods Manifest.lock */,
 				DA513E271FF4E77100B65F22 /* Sources */,
 				DA513E281FF4E77100B65F22 /* Frameworks */,
 				DA513E291FF4E77100B65F22 /* Resources */,
+				DD2B5F857C9D1FC53C1314BD /* [CP] Embed Pods Frameworks */,
+				3918BB7B38A64B74ADCB5207 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA513E451FF4E77100B65F22 /* Build configuration list for PBXNativeTarget "edisonUITests" */;
 			buildPhases = (
+				B73622E971FF8CB72ED73B87 /* [CP] Check Pods Manifest.lock */,
 				DA513E321FF4E77100B65F22 /* Sources */,
 				DA513E331FF4E77100B65F22 /* Frameworks */,
 				DA513E341FF4E77100B65F22 /* Resources */,
+				9644116D4C1BC1DE2BF7F334 /* [CP] Embed Pods Frameworks */,
+				B04217B113BA0FEC1AED70C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,11 +309,174 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		20A533BA942ECDC09B2B1171 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-edison/Pods-edison-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3918BB7B38A64B74ADCB5207 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-edisonTests/Pods-edisonTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6497E775AEBFC98BB1F4593E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-edison/Pods-edison-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DeckTransition/DeckTransition.framework",
+				"${BUILT_PRODUCTS_DIR}/M13Checkbox/M13Checkbox.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SugarRecord/SugarRecord.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftClient/SwiftClient.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeckTransition.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/M13Checkbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SugarRecord.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftClient.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-edison/Pods-edison-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9644116D4C1BC1DE2BF7F334 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-edisonUITests/Pods-edisonUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B04217B113BA0FEC1AED70C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-edisonUITests/Pods-edisonUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B73622E971FF8CB72ED73B87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-edisonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2C5ADE2446C73448E1A4ACF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-edisonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5A7ABC1FD47C402BEB554CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-edison-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD2B5F857C9D1FC53C1314BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-edisonTests/Pods-edisonTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DA513E101FF4E77000B65F22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				348357B91FF8BA7A0047B5B5 /* LoginViewController.swift in Sources */,
 				DA513E1A1FF4E77000B65F22 /* ViewController.swift in Sources */,
 				DA513E201FF4E77000B65F22 /* edison.xcdatamodeld in Sources */,
 				DA513E181FF4E77000B65F22 /* AppDelegate.swift in Sources */,
@@ -428,6 +643,7 @@
 		};
 		DA513E401FF4E77100B65F22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F4804312B309933DD8D45EB /* Pods-edison.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -436,12 +652,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jnjcomu.edison;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DA513E411FF4E77100B65F22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09C6DEC109C3374EB98A6092 /* Pods-edison.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,12 +667,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jnjcomu.edison;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		DA513E431FF4E77100B65F22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E36DAF972E11B98EAE03B07F /* Pods-edisonTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +690,7 @@
 		};
 		DA513E441FF4E77100B65F22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C435C8CC35925602EED5BE19 /* Pods-edisonTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +707,7 @@
 		};
 		DA513E461FF4E77100B65F22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41D2C0D441F5BFE46E7947AC /* Pods-edisonUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +723,7 @@
 		};
 		DA513E471FF4E77100B65F22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1980C4C8A8C4E6BCA54BD63C /* Pods-edisonUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,152 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="edison" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="av8-KU-tYH" customClass="M13Checkbox" customModule="M13Checkbox">
+                                <rect key="frame" x="123" y="347" width="128" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="128" id="Ele-VM-Zbu"/>
+                                    <constraint firstAttribute="height" constant="128" id="Xkg-EN-Ew8"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="_IBStateChangeAnimation" value="Spiral"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="secondaryTintColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="secondaryCheckmarkTintColor">
+                                        <color key="value" red="0.16078431369999999" green="0.47450980390000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="_IBBoxType" value="Circle"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="_IBMarkType" value="Checkmark"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="행복한 나의 집에 있습니다 :)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mci-ly-dOu">
+                                <rect key="frame" x="30" y="506" width="315" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mci-ly-dOu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="R7H-Ez-KZh"/>
+                            <constraint firstItem="av8-KU-tYH" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="gpd-il-FtL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mci-ly-dOu" secondAttribute="trailing" constant="30" id="iue-c9-zuJ"/>
+                            <constraint firstItem="mci-ly-dOu" firstAttribute="top" secondItem="av8-KU-tYH" secondAttribute="bottom" constant="31" id="oNW-D1-LsB"/>
+                            <constraint firstItem="av8-KU-tYH" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="s83-bE-Hop"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="217" y="197"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="DHz-3P-LSq">
+            <objects>
+                <viewController id="KAV-5H-xTA" customClass="LoginViewController" customModule="edison" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q5D-R6-mO3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egh-86-ohR">
+                                <rect key="frame" x="0.0" y="722" width="375" height="56"/>
+                                <color key="backgroundColor" red="0.16078431369999999" green="0.47450980390000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="JU1-26-Kur"/>
+                                </constraints>
+                                <state key="normal" title="로그인">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="j1B-FC-jNc">
+                                <rect key="frame" x="56" y="361.66666666666669" width="263" height="99"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jlk-b2-tSg">
+                                        <rect key="frame" x="0.0" y="0.0" width="263" height="1"/>
+                                        <color key="backgroundColor" white="1" alpha="0.19828232020547945" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="hkD-Jb-NaZ"/>
+                                        </constraints>
+                                    </view>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="디미고인 아이디" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ivP-ua-RFI">
+                                        <rect key="frame" x="0.0" y="1" width="263" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="XWi-aW-GH4"/>
+                                        </constraints>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardAppearance="alert" textContentType="username"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="_placeholderLabel.textColor">
+                                                <color key="value" red="0.54509803921568623" green="0.54117647058823526" blue="0.54509803921568623" alpha="0.99761879280821919" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wFc-jx-Un0">
+                                        <rect key="frame" x="0.0" y="49" width="263" height="1"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.19" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="WmG-qO-Zri"/>
+                                        </constraints>
+                                    </view>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="디미고인 비밀번호" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FOd-85-CQW">
+                                        <rect key="frame" x="0.0" y="50" width="263" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="4Hy-kO-38p"/>
+                                        </constraints>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardAppearance="alert" secureTextEntry="YES" textContentType="password"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="_placeholderLabel.textColor">
+                                                <color key="value" red="0.54509803921568623" green="0.54117647058823526" blue="0.54509803921568623" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oZU-34-PaH">
+                                        <rect key="frame" x="0.0" y="98" width="263" height="1"/>
+                                        <color key="backgroundColor" white="1" alpha="0.19" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="Wq6-1c-i6m"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EDISON" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="he6-aA-Lpz">
+                                <rect key="frame" x="122.00000000000001" y="212.66666666666666" width="131.33333333333337" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="cSg-E5-4Yh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="34"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="he6-aA-Lpz" firstAttribute="centerX" secondItem="SBb-8z-Nmp" secondAttribute="centerX" id="DYt-vg-0hS"/>
+                            <constraint firstItem="SBb-8z-Nmp" firstAttribute="trailing" secondItem="j1B-FC-jNc" secondAttribute="trailing" constant="56" id="H6W-kr-O4k"/>
+                            <constraint firstItem="SBb-8z-Nmp" firstAttribute="bottom" secondItem="egh-86-ohR" secondAttribute="bottom" id="HJA-0R-7HS"/>
+                            <constraint firstItem="j1B-FC-jNc" firstAttribute="leading" secondItem="SBb-8z-Nmp" secondAttribute="leading" constant="56" id="Pj1-DB-Jma"/>
+                            <constraint firstItem="SBb-8z-Nmp" firstAttribute="trailing" secondItem="egh-86-ohR" secondAttribute="trailing" id="TGs-by-xUv"/>
+                            <constraint firstItem="j1B-FC-jNc" firstAttribute="centerY" secondItem="SBb-8z-Nmp" secondAttribute="centerY" id="dSs-cY-BsU"/>
+                            <constraint firstItem="j1B-FC-jNc" firstAttribute="centerX" secondItem="SBb-8z-Nmp" secondAttribute="centerX" id="eNg-jw-bs4"/>
+                            <constraint firstItem="ivP-ua-RFI" firstAttribute="top" secondItem="he6-aA-Lpz" secondAttribute="bottom" constant="109" id="swG-Fo-hSE"/>
+                            <constraint firstItem="egh-86-ohR" firstAttribute="leading" secondItem="SBb-8z-Nmp" secondAttribute="leading" id="uJF-m1-0cV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="SBb-8z-Nmp"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tor-a8-7vP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1439" y="796"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.16078431372549018" green="0.47450980392156861" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
