@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34283D2C1FFA1D7E00F07CDD /* EdisonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34283D2B1FFA1D7E00F07CDD /* EdisonAPI.swift */; };
+		342AF35C1FFBE58C00DF9C06 /* LoginSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342AF35B1FFBE58C00DF9C06 /* LoginSession.swift */; };
 		348357B91FF8BA7A0047B5B5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348357B81FF8BA7A0047B5B5 /* LoginViewController.swift */; };
 		3EBF1A77CCB8F08A4D5B83C4 /* Pods_edisonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 541F0344D839A994FD1DFA2A /* Pods_edisonTests.framework */; };
 		4B90D1B84953C299E14334CB /* Pods_edisonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5477216029A88B05D1163E5D /* Pods_edisonUITests.framework */; };
@@ -42,6 +44,8 @@
 		09C6DEC109C3374EB98A6092 /* Pods-edison.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edison.release.xcconfig"; path = "Pods/Target Support Files/Pods-edison/Pods-edison.release.xcconfig"; sourceTree = "<group>"; };
 		1980C4C8A8C4E6BCA54BD63C /* Pods-edisonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edisonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-edisonUITests/Pods-edisonUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2F4804312B309933DD8D45EB /* Pods-edison.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edison.debug.xcconfig"; path = "Pods/Target Support Files/Pods-edison/Pods-edison.debug.xcconfig"; sourceTree = "<group>"; };
+		34283D2B1FFA1D7E00F07CDD /* EdisonAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdisonAPI.swift; sourceTree = "<group>"; };
+		342AF35B1FFBE58C00DF9C06 /* LoginSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSession.swift; sourceTree = "<group>"; };
 		348357B81FF8BA7A0047B5B5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		41D2C0D441F5BFE46E7947AC /* Pods-edisonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edisonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-edisonUITests/Pods-edisonUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4BF5FA9FBCFED167E0FDCD84 /* Pods_edison.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_edison.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +97,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3418D98A1FFA8F1D00EB64D1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				342AF35B1FFBE58C00DF9C06 /* LoginSession.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		34283D291FFA0FA900F07CDD /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DA513E1B1FF4E77000B65F22 /* Main.storyboard */,
+				DA513E231FF4E77000B65F22 /* LaunchScreen.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		34283D2A1FFA0FD300F07CDD /* network */ = {
+			isa = PBXGroup;
+			children = (
+				34283D2B1FFA1D7E00F07CDD /* EdisonAPI.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		34AF5AE61FF9F16F00E568B0 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DA513E191FF4E77000B65F22 /* ViewController.swift */,
+				348357B81FF8BA7A0047B5B5 /* LoginViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
 		52A1FB4BDD40022BCFE33873 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,11 +180,11 @@
 			isa = PBXGroup;
 			children = (
 				DA513E171FF4E77000B65F22 /* AppDelegate.swift */,
-				DA513E191FF4E77000B65F22 /* ViewController.swift */,
-				348357B81FF8BA7A0047B5B5 /* LoginViewController.swift */,
-				DA513E1B1FF4E77000B65F22 /* Main.storyboard */,
+				34283D2A1FFA0FD300F07CDD /* network */,
+				3418D98A1FFA8F1D00EB64D1 /* model */,
+				34AF5AE61FF9F16F00E568B0 /* controllers */,
+				34283D291FFA0FA900F07CDD /* storyboards */,
 				DA513E211FF4E77000B65F22 /* Assets.xcassets */,
-				DA513E231FF4E77000B65F22 /* LaunchScreen.storyboard */,
 				DA513E261FF4E77000B65F22 /* Info.plist */,
 				DA513E1E1FF4E77000B65F22 /* edison.xcdatamodeld */,
 			);
@@ -349,6 +387,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-edison/Pods-edison-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DeckTransition/DeckTransition.framework",
 				"${BUILT_PRODUCTS_DIR}/M13Checkbox/M13Checkbox.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -359,6 +398,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeckTransition.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/M13Checkbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
@@ -477,8 +517,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				348357B91FF8BA7A0047B5B5 /* LoginViewController.swift in Sources */,
+				34283D2C1FFA1D7E00F07CDD /* EdisonAPI.swift in Sources */,
 				DA513E1A1FF4E77000B65F22 /* ViewController.swift in Sources */,
 				DA513E201FF4E77000B65F22 /* edison.xcdatamodeld in Sources */,
+				342AF35C1FFBE58C00DF9C06 /* LoginSession.swift in Sources */,
 				DA513E181FF4E77000B65F22 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
